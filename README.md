@@ -25,7 +25,7 @@ Si desea usar una función por su cuenta, solo tiene que abrir el archivo **clas
 m = [[c, d], [e, f]]			 # Boolean matrix
 v = [[a], [b]]                           # Real vector
 t = s					 # Entero
-function_name(m, v, t)
+NombreDeLaFuncion(m, v, t)
 ```
 
 ### Para sistemas probabilísticos:
@@ -35,7 +35,7 @@ Si desea usar una función por su cuenta, solo tiene que abrir el archivo **clas
 m = [[i, j], [k, l]]	 	         # Real matrix
 v = [[a], [b]]                           # Real vector
 t = s					 # Entero
-function_name(m, v, t)
+NombreDeLaFuncion(m, v, t)
 ```
 
 ### Para sistemas cuánticos:
@@ -45,7 +45,7 @@ Si desea usar una función por su cuenta, solo tiene que abrir el archivo **clas
 m2 = [[[i, j], [k, l]], [[m, n], [o, p]]] # Complex matrix
 v1 = [[a, b], [c, d]]                     # Complex vector
 t = s			        	  # Entero
-function_name(m, v, t)
+NombreDeLaFuncion(m, v, t)
 ```
 
 ### Para plots:
@@ -53,7 +53,7 @@ function_name(m, v, t)
 Si desea usar una función por su cuenta, solo tiene que abrir el archivo **classToQuan.py** y ejecutarlo usando esta sintaxis:
 ```python
 v = [a, b, c, d]                 # Real vector
-function_name(v)
+NombreDeLaFuncion(v)
 ```
 Esta función no tiene una prueba porque implementará una imagen, por lo que si desea probarla, simplemente ejecútela como se indica en la información anterior.
 
