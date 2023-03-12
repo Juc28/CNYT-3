@@ -59,4 +59,4 @@ Esta función no tiene una prueba porque implementará una imagen, por lo que si
 
 ### AUTOR
 
-> Juliana Castro [Juc28](https://github.com/Juc28)
+> Erika Juliana Castro Romero [Juc28](https://github.com/Juc28)
