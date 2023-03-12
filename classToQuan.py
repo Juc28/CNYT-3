@@ -55,9 +55,11 @@ def multipleSlit(mat, vec, times):
 
 # Punto 4
 def grafico(prob):
-    data = len(prob)
-    x = np.array([x for x in range(data)])
-    y = np.array([round(prob[x][0] * 100, 2) for x in range(data)])
-    plot.bar(x, y, color ='g', align ='center')
-    plot.title('Probabilidades vector')
-    plot.show()
+     estados = [x for x in range(len(prob))]
+    fig, ax = plt.subplots()
+    ax.set_ylabel('Probabilidades')
+    ax.set_xlabel('Estados')
+    ax.set_title('Sistema Cuantico')
+    plt.bar(estados, prob)
+    plt.savefig('probabilities.png')
+    plt.show()
